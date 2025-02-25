@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="{{ asset('css/iziToast.css') }}">
     <link rel="stylesheet" href="/admin/vendor/owlcarousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/admin/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -112,26 +113,32 @@
                                 <ul>
                                     <li class="nav-item">
                                         <a href="/adminsettings" class="nav-link active">
-                                            <i class="la la-university"></i>
+                                            <i class="la la-university" style="color:white;"></i>
                                             <span>Link Bank</span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="/rate" class="nav-link">
-                                            <i class="la la-edit"></i>
+                                        <i class="fa fa-plus" aria-hidden="true" style="color:white;" ></i>
                                             <span>Add Coin</span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
+                                        <a href="/address/create" class="nav-link">
+                                        <i class="fa fa-plus" aria-hidden="true" style="color:white;" ></i>
+                                            <span>Add Coin Address</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a href="/rateview" class="nav-link">
-                                            <i class="la la-edit"></i>
+                                            <i class="la la-edit" style="color:white;" ></i>
                                             <span>Update All Coin Rate</span>
                                         </a>
                                     </li>
                                    
                                     <li class="nav-item">
                                         <a href="{{route('address.index')}}" class="nav-link">
-                                            <i class="la la-edit"></i>
+                                            <i class="la la-edit" style="color:white;" ></i>
                                             <span>Update All Coin Address</span>
                                         </a>
                                     </li>
