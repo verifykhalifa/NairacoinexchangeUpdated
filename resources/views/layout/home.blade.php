@@ -54,7 +54,7 @@
 						<!-- logo -->
 						<div class="site-logo">
 							<a href="index.html">
-								<img src="assets/img/naira.png" style=";"  alt="Nairacoinxchange">
+								<img src="assets/img/naira.png" style="width: 100px !important; margin-top:-10px !important" alt="Nairacoinxchange">
 							</a>
 						</div>
 						<!-- logo -->
